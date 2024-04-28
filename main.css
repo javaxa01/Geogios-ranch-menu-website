@@ -1,0 +1,88 @@
+*{
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Handlee", cursive;
+  font-weight: 900;
+}
+.handlee-regular {
+  font-family: "Handlee", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.passion-one-regular {
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .passion-one-bold {
+    font-family: "Passion One", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .passion-one-black {
+    font-family: "Passion One", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+.Conteiner{
+        width: 100%;
+        height: 100vh;
+        background-image: url('poni.jpg');
+        background-color: #cccccc;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        
+    }
+    .salat{
+      font-size: 40px;
+      font-weight: 700;
+    }
+    .cham{
+      display: flex;
+      justify-content: space-around;
+    }
+    
+    .h1{
+      font-size: 60px;
+      font-weight: 900;
+    }
+    .div1{
+      margin-top: 1rem;
+    }
+    .fri{
+      font-size: 50px;
+      display: flex;
+      font-weight:900;
+
+    }
+    .div2{
+      display: flex;
+      justify-content: space-around;
+      margin-top: 4rem;
+    }
+    .drinks{
+      width: 100%;
+      height: 100vh;
+      background-image: url('poni.jpg');
+      background-color: #cccccc;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+  }
+    .every{
+    display: flex;
+    justify-content: space-around;
+  }
+    .paragraph1{
+    font-weight: 900;
+    font-size: 29px;
+  }
+  .drinkh1{
+    font-size: 40px;
+    font-weight: 900;
+  }
