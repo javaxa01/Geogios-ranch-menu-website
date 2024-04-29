@@ -72,16 +72,15 @@ table {
     font-weight: 900;
     font-style: normal;
   }
-.Conteiner{
-        width: 100%;
-        height: 100vh;
-        background-image: url('poni.jpg');
-        background-color: #cccccc;
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        
-    }
+  body {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+    background: #f5f5f5 center;
+    background-size: auto;
+    padding-bottom: 3rem;
+    background-image: linear-gradient(323deg, #33c5b285 0%, #622c6f 100%);
+}
     .salat{
       font-size: 40px;
       font-weight: 700;
@@ -112,15 +111,7 @@ table {
       justify-content: space-around;
       margin-top: 4rem;
     }
-    .drinks{
-      width: 100%;
-      height: 100vh;
-      background-image: url('poni.jpg');
-      background-color: #cccccc;
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-  }
+    
     .every{
     display: flex;
     justify-content: space-around;
@@ -134,193 +125,134 @@ table {
     font-size: 50px;
     font-weight: 900;
 }
-  .ul{
-    display: flex;
-  }
-  ul li ul {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: #f9f9f9;
-    padding: 10px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  }
-  .nav{
-    font-size: 30px;
-    color: black;
-    width: 900;
-    margin-right:4rem;
-  }
-  @media screen and (max-width: 1024px) {
-    .h1{
-      font-size: 40px;
-    }
-    .div1{
-      margin-top: 2rem;
-    }
-    .salat {
-      font-size: 25px;
-      font-weight: 700;
-      margin-top: 1rem;
-  }
-  .div2 {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 1rem;
+.drinks{
+  margin-top: 15rem;
 }
+/* Add this CSS to your main.css file or in a style tag in your HTML */
+
+/* Global reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: "Handlee", cursive;
+  line-height: 1;
+  background-color: black;
+  padding-bottom: 3rem;
+  background: #f5f5f5 center;
+  background-size: auto;
+  background-image: linear-gradient(323deg, #33c5b285 0%, #622c6f 100%);
+}
+
+/* Language links styles */
+.language {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.language a {
+  margin-left: 10px;
+}
+
+/* Menu section styles */
+.Conteiner {
+  padding: 20px;
+}
+
+.cham {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.h1 {
+  font-size: 70px;
+  margin-top: 3rem;
+  font-weight: 900;
+}
+
+.divik {
+  flex-basis: calc(33.33% - 20px);
+  margin-bottom: 20px;
+}
+
+.div1 {
+  margin-top: 5rem;
+}
+
+.salat {
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 1rem;
+}
+
 .fri {
-  font-size: 25px;
+  font-size: 40px;
   display: flex;
   margin-top: 1rem;
   font-weight: 900;
 }
-.drinkh1 {
-  font-size: 35px;
-  font-weight: 900;
-}
-.paragraph1 {
-  font-weight: 900;
-  margin-top: 6px;
-  font-size: 20px;
-}
-    
-  }
-  @media only screen and (max-width: 768px){
-    .fri{
-      font-size: 23px;
-    }
-    .h1{
-      font-size: 32px;
-    }
-    .salat{
-      font-size: 23px;
-    }
-    .nav{
-      margin-right: 0rem;
-      font-size: 20px;
-    }
-    .drinkh1{
-      font-size: 32px;
-    }
-    .paragraph1 {
-      font-weight: 900;
-      margin-top: 6px;
-      font-size: 25px;
-  }
-  }
-  @media only screen and (max-width: 430px){
-    .fri{
-      font-size: 23px;
-    }
-    .h1{
-      font-size: 32px;
-    }
-    .salat{
-      font-size: 18px;
-    }
-    .nav{
-      margin-right: 0rem;
-      font-size: 20px;
-    }
-    .drinkh1{
-      font-size: 32px;
-    }
-    .paragraph1 {
-      font-weight: 900;
-      margin-top: 6px;
-      font-size: 25px;
-  }
-  .drinks {
-    width: 113%;
-    height: 100vh;
-    background-image: url(poni.jpg);
-    background-color: #cccccc;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-} 
-  .Conteiner {
-    width: 113%;
-    height: 100vh;
-    background-image: url(poni.jpg);
-    background-color: #cccccc;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-  .divik{
-  
-    display: inline-block;
-  }
-  .div1{
-    margin-top: 0.5rem;
-  }
-  .div2 {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 6rem;
-} 
-.cham {
-  display: flex;
-  justify-content: center;
-  align-content: stretch;
-  flex-wrap: wrap;
-}
-.drinkh1{
-  font-size: 23px;
-}
-.paragraph1 {
-  font-weight: 900;
-  
-  font-size: 17px;
-}
-.drinksdiv1{
-  margin-top: 1.5rem;
-  margin-left: 2rem;
-}
-.paragraph1{
-  margin-top:1rem;
-}
-  }
-  @media screen and (mix-width: 375px) {
-.divik{
-  margin-left:15px;
-}
+
 .div2 {
   display: flex;
   justify-content: space-around;
-  margin-top: 1.5rem;
-  flex-direction: column-reverse;
-  align-items: center;
-}
-.fri {
-  font-size: 28px;
-}
-.drinksdiv1 {
-  margin-top: 1.5rem;
-  margin-left: 1rem;
-}
-.drinkh1 {
-  font-size: 23px;
-}
-.paragraph1 {
-  margin-top: 0.9rem;
-}
-.chom{
-  margin-left: 0rem;
-  margin-top: 1.5rem;
-}
-  }
-  @media only screen and (max-width: 360px){
-    .drinks {
-      width: 113%;
-      height: 110vh;
-  }
-  .div2 {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 0rem;
+  margin-top: 4rem;
 }
 
+.every {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Drinks section styles */
+.drinks {
+  margin-top: 15rem;
+}
+
+.drinksdiv1 {
+  flex-basis: calc(50% - 20px);
+  margin-right: 20px;
+}
+
+.drinkh1 {
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.paragraph1 {
+  font-weight: 900;
+  margin-top: 6px;
+  font-size: 35px;
+}
+
+.limonate {
+  margin-top: 2rem;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .cham {
+      flex-direction: column;
   }
+
+  .divik {
+      flex-basis: calc(50% - 20px);
+  }
+
+  .div2 {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .drinksdiv1 {
+      flex-basis: 100%;
+      margin-right: 0;
+  }
+}
+
+ 
