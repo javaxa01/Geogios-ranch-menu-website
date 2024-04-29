@@ -264,6 +264,38 @@ body {
 body{
   Overflow-x:Hidden;
 }
+.h1{
+  font-size: 55px;
+  text-align: center;
 }
+.salat{
+  font-size:27px;
+  text-align: center;
+}
+.fri{
+  font-size: 29px;
+}
+.drinks{
+  margin-top:4rem ;
+}
+  .cham {
+    flex-direction: column;
+    display: flex;
+    align-content: space-around;
+}
+.drinkh1{
+  font-size: 40px;
+  text-align: center;
+}
+.paragraph1 {
+  font-weight: 900;
+  margin-top: 6px;
+  font-size: 24px;
+  text-align: center;
+}
+
+}
+
+
 
  
