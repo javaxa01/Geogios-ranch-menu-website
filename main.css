@@ -1,5 +1,49 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+  font-family: "Handlee", cursive;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 *{
-  text-decoration: none;
+  text-decoration:none;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -41,6 +85,7 @@
     .salat{
       font-size: 40px;
       font-weight: 700;
+      margin-top: 1rem;
     }
     .cham{
       display: flex;
@@ -48,15 +93,17 @@
     }
     
     .h1{
-      font-size: 60px;
-      font-weight: 900;
+      font-size: 70px;
+    margin-top: 3rem;
+    font-weight: 900;
     }
     .div1{
-      margin-top: 1rem;
+      margin-top: 5rem;
     }
     .fri{
-      font-size: 50px;
+      font-size: 40px;
       display: flex;
+      margin-top: 1rem;
       font-weight:900;
 
     }
@@ -78,11 +125,202 @@
     display: flex;
     justify-content: space-around;
   }
-    .paragraph1{
+  .paragraph1 {
     font-weight: 900;
-    font-size: 29px;
+    margin-top: 6px;
+    font-size: 35px;
+}
+  .drinkh1 {
+    font-size: 50px;
+    font-weight: 900;
+}
+  .ul{
+    display: flex;
   }
-  .drinkh1{
-    font-size: 40px;
-    font-weight: 900;
+  ul li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f9f9f9;
+    padding: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  .nav{
+    font-size: 30px;
+    color: black;
+    width: 900;
+    margin-right:4rem;
+  }
+  @media screen and (max-width: 1024px) {
+    .h1{
+      font-size: 40px;
+    }
+    .div1{
+      margin-top: 2rem;
+    }
+    .salat {
+      font-size: 25px;
+      font-weight: 700;
+      margin-top: 1rem;
+  }
+  .div2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+.fri {
+  font-size: 25px;
+  display: flex;
+  margin-top: 1rem;
+  font-weight: 900;
+}
+.drinkh1 {
+  font-size: 35px;
+  font-weight: 900;
+}
+.paragraph1 {
+  font-weight: 900;
+  margin-top: 6px;
+  font-size: 20px;
+}
+    
+  }
+  @media only screen and (max-width: 768px){
+    .fri{
+      font-size: 23px;
+    }
+    .h1{
+      font-size: 32px;
+    }
+    .salat{
+      font-size: 23px;
+    }
+    .nav{
+      margin-right: 0rem;
+      font-size: 20px;
+    }
+    .drinkh1{
+      font-size: 32px;
+    }
+    .paragraph1 {
+      font-weight: 900;
+      margin-top: 6px;
+      font-size: 25px;
+  }
+  }
+  @media only screen and (max-width: 430px){
+    .fri{
+      font-size: 23px;
+    }
+    .h1{
+      font-size: 32px;
+    }
+    .salat{
+      font-size: 18px;
+    }
+    .nav{
+      margin-right: 0rem;
+      font-size: 20px;
+    }
+    .drinkh1{
+      font-size: 32px;
+    }
+    .paragraph1 {
+      font-weight: 900;
+      margin-top: 6px;
+      font-size: 25px;
+  }
+  .drinks {
+    width: 113%;
+    height: 100vh;
+    /* background-image: url(poni.jpg);
+    background-color: #cccccc;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+} 
+  .Conteiner {
+    width: 113%;
+    height: 100vh;
+    /* background-image: url(poni.jpg);
+    background-color: #cccccc;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+}
+  .divik{
+  
+    display: inline-block;
+  }
+  .div1{
+    margin-top: 0.5rem;
+  }
+  .div2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 6rem;
+} 
+.cham {
+  display: flex;
+  justify-content: center;
+  align-content: stretch;
+  flex-wrap: wrap;
+}
+.drinkh1{
+  font-size: 23px;
+}
+.paragraph1 {
+  font-weight: 900;
+  
+  font-size: 17px;
+}
+.drinksdiv1{
+  margin-top: 1.5rem;
+  margin-left: 2rem;
+}
+.paragraph1{
+  margin-top:1rem;
+}
+  }
+  @media screen and (mix-width: 375px) {
+.divik{
+  margin-left:15px;
+}
+.div2 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1.5rem;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+.fri {
+  font-size: 28px;
+}
+.drinksdiv1 {
+  margin-top: 1.5rem;
+  margin-left: 1rem;
+}
+.drinkh1 {
+  font-size: 23px;
+}
+.paragraph1 {
+  margin-top: 0.9rem;
+}
+.chom{
+  margin-left: 0rem;
+  margin-top: 1.5rem;
+}
+  }
+  @media only screen and (max-width: 360px){
+    .drinks {
+      width: 113%;
+      height: 110vh;
+  }
+  .div2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0rem;
+}
+
   }
