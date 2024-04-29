@@ -167,7 +167,8 @@ body {
 .cham {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-content: space-between;
 }
 
 .h1 {
@@ -177,7 +178,6 @@ body {
 }
 
 .divik {
-  flex-basis: calc(33.33% - 20px);
   margin-bottom: 20px;
 }
 
@@ -215,7 +215,7 @@ body {
 }
 
 .drinksdiv1 {
-  flex-basis: calc(50% - 20px);
+
   margin-right: 20px;
 }
 
@@ -253,6 +253,14 @@ body {
       flex-basis: 100%;
       margin-right: 0;
   }
+  .fri{
+    font-size: 36px;
+  }
+  .every {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
 }
 
  
